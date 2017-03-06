@@ -14,10 +14,12 @@ For Scanning traffic specific network
 --------------------------------------
 FILE: To be displayed
 
-USE: Scan *most traffic* on specified network using airodump-ng
+USE: Scan *most traffic* on specified network using airodump-ng (monitor mode must be enabled, may give error on NIC with promiscuous mode enabled)
 
 
 
-For Scanning traffic specific network
+For Deauthentication attacks (IEEE 802.11) NOTE: *IEEE 802.11w is more secure!*
 --------------------------------------
 FILE: To be displayed
+
+USE: Send deauthentication packets to client connected to router, or to all clients on router
