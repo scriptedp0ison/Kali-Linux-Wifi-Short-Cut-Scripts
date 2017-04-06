@@ -25,7 +25,8 @@ FILE: __wifi_dosser.py__
 
 USE: Send deauthentication packets to client connected to router, or to all clients on router
 
-`import time
+```python3
+import time
 import subprocess
 from datetime import datetime
 
@@ -106,4 +107,5 @@ DeauthenticationAttack.get_option()
 
 
 
-#end program`
+#end program
+```
