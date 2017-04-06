@@ -172,8 +172,8 @@ DeauthenticationAttack.get_option()
 #end program
 ```
 
-For Scanning traffic specific network
---------------------------------------
+For random Media Access Control Generation
+------------------------------------------
 FILE: [__mac_address_generator.py__](https://github.com/scriptedp0ison/Kali-Linux-Wifi-Short-Cut-Scripts/blob/master/mac_address_generator.py)
 
 USE: Generate a random Media Access Control(MAC) address. 
