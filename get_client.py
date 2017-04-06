@@ -25,13 +25,13 @@ if sys.argv > 1 and sys.argv > 2 and sys.argv > 3 and sys.argv > 4 and sys.argv 
 	time.sleep(2)
 	print('[+] Network card set to listen on: {}'.format(sys.argv[6]))
 	time.sleep(2)
-	print('[+] Compiling system arguments,,,')
+	print('[+] Compiling system arguments...')
 	time.sleep(1)
 	print('[+] Executing system arguments...')
 	time.sleep(2)
 	launch_attack = 'airodump-ng -c {} --bssid {} {}'.format(sys.argv[2], sys.argv[4], sys.argv[6])
 	subprocess.call(launch_attack, shell=True)
-if sys.argv[1] == '-h':
+if sys.argv[1] == '-h' or sys.argv[1] == '-help' or sys.argv[1] == '--help':
 	print(""" Wifi Dosser v0.1 - Do not use for illegal purposes! Do not test on networks you dont own or have permission to test!
 		_____________________________________________________________________________________________________________________
 
