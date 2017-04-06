@@ -12,10 +12,11 @@ USE: Scan *most traffic* on specified NIC using airodump-ng (monitor mode must b
 
 For Scanning traffic specific network
 --------------------------------------
-FILE: To be displayed
+FILE: get_client.py
 
 USE: Scan *most traffic* on specified network using airodump-ng (monitor mode must be enabled, may give error on NIC with promiscuous mode enabled)
 
+This __file__ can be used to *directly monitor* 802.11
 
 
 For Deauthentication attacks (IEEE 802.11) NOTE: *IEEE 802.11w is more secure!*
