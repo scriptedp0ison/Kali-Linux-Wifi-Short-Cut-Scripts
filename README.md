@@ -21,7 +21,7 @@ This can be used to *directly monitor* 802.11
 
 For Deauthentication attacks (IEEE 802.11) NOTE: *IEEE 802.11w is more secure!*
 --------------------------------------
-FILE: __wifi_dosser.py__ -> (Kali-Linux-Wifi-Short-Cut-Scripts/wifi_dosser.py)
+FILE: [__wifi_dosser.py__](Kali-Linux-Wifi-Short-Cut-Scripts/wifi_dosser.py)
 
 USE: Send deauthentication packets to client connected to router, or to all clients on router
 
