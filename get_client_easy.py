@@ -11,12 +11,12 @@ class GetSniffer:
 
 	@classmethod
 	def get_target_channel(cls):
-		cls.channel = raw_input('[+] Enter channel to listen on: ')
+		cls.channel = int(input('[+] Enter channel to listen on: '))
 		print('[+] Channel set to: {}'.format(cls.channel))
 
 	@classmethod
 	def get_mac_address(cls):
-		cls.mac = raw_input('[+] Enter target mac address: ')
+		cls.mac = int(input('[+] Enter target mac address: '))
 		if(len(cls.mac) != 17):
 			print('[!] Invalid mac address length!')
 			time.sleep(2)
@@ -27,7 +27,7 @@ class GetSniffer:
 
 	@classmethod
 	def get_network_card(cls):
-		cls.card = raw_input('[+] Enter network card: ')
+		cls.card = input('[+] Enter network card: ')
 		time.sleep(1)
 		print('[+] Network card set to: {}'.format(cls.card))
 
